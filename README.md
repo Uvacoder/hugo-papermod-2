@@ -1,3 +1,3 @@
-# drtbz.github.io
+# drtbz
 
 Automate all the things
