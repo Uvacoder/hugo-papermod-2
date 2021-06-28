@@ -1,4 +1,15 @@
 baseURL: "https://drtbz.com"
 languageCode: "en-us"
-title: "drtbz"
+title: "This is fine :fire:"
+
+enableEmoji: true
+enableGitInfo: true
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
 theme: "ananke"
+
+copyright: "Copyright {year}. All rights reserved."
