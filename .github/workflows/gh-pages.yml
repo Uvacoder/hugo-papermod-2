@@ -1,5 +1,4 @@
 name: github pages
-environment: staging_environment
 
 on:
   push:
@@ -9,6 +8,7 @@ on:
 
 jobs:
   deploy:
+  environment: hugo
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
