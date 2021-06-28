@@ -1,4 +1,5 @@
 name: github pages
+environment: staging_environment
 
 on:
   push:
