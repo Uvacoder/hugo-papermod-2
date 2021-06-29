@@ -2,7 +2,7 @@ baseURL: "https://drtbz.com"
 languageCode: "en-us"
 copyright: "Copyright Tom B 2021. All rights reserved."
 
-theme: ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme: ["github.com/h-enk/doks-child-theme"]
 themesDir: "../.."
 resourceDir: "../resources"
 
@@ -14,7 +14,7 @@ enableRobotsTXT: true
 
 languages:
   en:
-    title: "My blog"
+    title: "Coffee, Cloud and Automation"
     weight: 1
     contentDir: "content/en"
 
