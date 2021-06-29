@@ -1,90 +1,134 @@
-baseURL: "https://drtbz.com"
-languageCode: "en-us"
-copyright: "Copyright Tom B 2021. All rights reserved."
+baseURL: "https://drtbz.com/"
+title: Cloud, Coffee and Automation
+paginate: 5
+theme: [github.com/adityatelange/hugo-PaperMod]
 
-theme: ["github.com/upagge/uBlogger"]
-themesDir: "../.."
-resourceDir: "../resources"
-
-defaultContentLanguage: "en"
-SectionPagesMenu: "main"
-Paginate: 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics: ""
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-languages:
-  en:
-    title: "Coffee, Cloud and Automation"
-    weight: 1
-    contentDir: "content/en"
+googleAnalytics: ""
 
-menu:
-  main:
-    - identifier: "posts"
-      # you can add extra information before the name (HTML format is supported), such as icons
-      pre: ""
-      # you can add extra information after the name (HTML format is supported), such as icons
-      post: ""
-      name: "Posts"
-      url: "/posts/"
-      # title will be shown when you hover on this menu link
-      title: ""
-      weight: 1
-    - identifier: "tags"
-      pre: ""
-      post: ""
-      name: "Tags"
-      url: "/tags/"
-      title: ""
-      weight: 2
-    - identifier: "categories"
-      pre: ""
-      post: ""
-      name: "Categories"
-      url: "/categories/"
-      title: ""
-      weight: 3
-
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
-
-markup:
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineAnchors: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: false
-    style: monokai
-    tabWidth: 4
+minify:
+    disableXML: true
+    minifyOutput: true
 
 params:
-  version: 2.0.2 #uBlogger theme version
-  favicon: ""
-  site_logo: ""
-  description: "The last theme you'll ever need. Maybe."
-  facebook: ""
-  twitter: "https://twitter.com/drtbz"
-  instagram: ""
-  youtube: ""
-  github: "https://github.com/drtbz"
-  gitlab: ""
-  linkedin: "https://www.linkedin.com/in/thomas-bailey-96256a91/"
-  mastodon: ""
-  slack: ""
-  stackoverflow: ""
-  rss: ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class: "bg-black"
- # featured_image: "/images/gohugo-default-sample-hero-image.jpg"
-  featured_image: "/images/it-was-dns.jpg"
-  recent_posts_number: 2
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Cloud, Coffee and Automation
+    description: "Mucking around with Hugo, Github and Actions"
+    keywords: [Blog, Portfolio, PaperMod]
+    author: Tom Bailey
+    # author: ["Me", "You"] # multiple authors
+    images: [""]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
 
-# enableEmoji: true
-# enableGitInfo: true
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        # favicon: "<link / abs url>"
+        # favicon16x16: "<link / abs url>"
+        # favicon32x32: "<link / abs url>"
+        # apple_touch_icon: "<link / abs url>"
+        # safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Home"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: ExampleSite
+        subtitle: "This is subtitle"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/"
+        - name: stackoverflow
+          url: "https://stackoverflow.com"
+        - name: github
+          url: "https://github.com/"
+
+    analytics:
+        google:
+            SiteVerificationTag: ""
+        bing:
+            SiteVerificationTag: ""
+        yandex:
+            SiteVerificationTag: ""
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    editPost:
+        URL: "https://github.com/<path_to_repo>/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identifier: example
+          name: example.org
+          url: https://example.org
+          weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
