@@ -20,7 +20,7 @@ So I thought it was about time I started one of these things, collected some tho
 First things first - lets get started with how I setup this page!
 
 ## GitHub Pages
-Basically we need to create a repo called: drtbz\drtbz.github.io
+Basically we need to create a repo called: `drtbz\drtbz.github.io`
 In there, we need a CNAME file with the sole line: `drtbz.com`
 And chuck in a `README.md` with some text to check your site works.
 That's it, for now!
