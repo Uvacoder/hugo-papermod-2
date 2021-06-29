@@ -14,14 +14,10 @@ googleAnalytics: ""
 enableRobotsTXT: true
 
 languages:
-  languages.en:
+  en:
     title: "My blog"
     weight: 1
     contentDir: "content/en"
-  languages.fr:
-    title: "Mon blogue"
-    weight: 2
-    contentDir: "content/fr"
 
 sitemap:
   changefreq: monthly
