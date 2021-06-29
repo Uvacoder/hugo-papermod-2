@@ -15,7 +15,6 @@ categories:
     - hugo
 slug: 20210630-Hugo-GithubPages-Cloudflare-01
 ---
-# Github pages, Hugo and Cloudflare
 So I thought it was about time I started one of these things, collected some thoughts and put some ramblings out into the ether.
 
 First things first - lets get started with how I setup this page!
