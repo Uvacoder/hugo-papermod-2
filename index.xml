@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overworked servant to the Thing Upstairs</title>
+    <title>My blog</title>
     <link>https://drtbz.com/</link>
-    <description>Recent content on Overworked servant to the Thing Upstairs</description>
+    <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright {year}. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 28 Jun 2021 16:32:07 +0100</lastBuildDate><atom:link href="https://drtbz.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What&#39;s this all about then?</title>
-      <link>https://drtbz.com/posts/my-first-post/</link>
-      <pubDate>Mon, 28 Jun 2021 16:32:07 +0100</pubDate>
-      
-      <guid>https://drtbz.com/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Copyright Tom B 2021. All rights reserved.</copyright><atom:link href="https://drtbz.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
