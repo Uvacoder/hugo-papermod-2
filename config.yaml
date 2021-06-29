@@ -2,7 +2,7 @@ baseURL: "https://drtbz.com"
 languageCode: "en-us"
 copyright: "Copyright Tom B 2021. All rights reserved."
 
-theme: ["github.com/h-enk/doks-child-theme"]
+theme: ["github.com/upagge/uBlogger"]
 themesDir: "../.."
 resourceDir: "../resources"
 
@@ -18,10 +18,51 @@ languages:
     weight: 1
     contentDir: "content/en"
 
+menu:
+  main:
+    - identifier: "posts"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre: ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post: ""
+      name: "Posts"
+      url: "/posts/"
+      # title will be shown when you hover on this menu link
+      title: ""
+      weight: 1
+    - identifier: "tags"
+      pre: ""
+      post: ""
+      name: "Tags"
+      url: "/tags/"
+      title: ""
+      weight: 2
+    - identifier: "categories"
+      pre: ""
+      post: ""
+      name: "Categories"
+      url: "/categories/"
+      title: ""
+      weight: 3
+
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    style: monokai
+    tabWidth: 4
 
 params:
   favicon: ""
