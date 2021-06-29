@@ -67,7 +67,7 @@ params:
         enabled: true # needs to be explicitly set
         title: drtbz | Tom Bailey
         subtitle: "Mucking around with Hugo, Github and Actions"
-        imageUrl: "<img location>"
+        imageUrl: "images/berk.jpg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
