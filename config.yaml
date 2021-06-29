@@ -1,5 +1,5 @@
 baseURL: "https://drtbz.com/"
-title: drtbz | Tom Bailey #This is the tab title for the page and also goes in the footer
+title: "This is fine \U0001F525" #This is the tab title for the page and also goes in the footer
 paginate: 5
 theme: [github.com/adityatelange/hugo-PaperMod]
 
@@ -83,10 +83,6 @@ params:
         Content: Welcome to my blog
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/drtbz"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
         - name: github
           url: "https://github.com/drtbz"
 
