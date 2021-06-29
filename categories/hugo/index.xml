@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hugo on This is fine 🔥</title>
+    <link>https://drtbz.com/categories/hugo/</link>
+    <description>Recent content in hugo on This is fine 🔥</description>
+    <image>
+      <url>https://drtbz.com/</url>
+      <link>https://drtbz.com/</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Jun 2021 21:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github pages, Hugo and Cloudflare</title>
+      <link>https://drtbz.com/posts/20210630-hugo-githubpages-cloudflare-01/</link>
+      <pubDate>Tue, 29 Jun 2021 21:00:00 +0100</pubDate>
+      
+      <guid>https://drtbz.com/posts/20210630-hugo-githubpages-cloudflare-01/</guid>
+      <description>Setting up a simple site with Hugo, Github Pages, and Cloudflare</description>
+    </item>
+    
+  </channel>
+</rss>
