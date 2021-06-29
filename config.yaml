@@ -1,5 +1,5 @@
 baseURL: "https://drtbz.com/"
-title: Cloud, Coffee and Automation1
+title: drtbz | Tom Bailey #This is the tab title for the page and also goes in the footer
 paginate: 5
 theme: [github.com/adityatelange/hugo-PaperMod]
 
@@ -16,9 +16,18 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Cloud, Coffee and Automation2
+    csp:
+        childsrc: [self]
+        fontsrc: [self]
+        formaction: [self]
+        framesrc: [self]
+        imgsrc: [self]
+        objectsrc: [none]
+        stylesrc: [self]
+        scriptsrc: [self]
+    title:  drtbz | Tom Bailey # This is some kind of metadata field
     description: "Mucking around with Hugo, Github and Actions"
-    keywords: [Blog, Portfolio, PaperMod]
+    keywords: [Blog, Portfolio, drtbz, cloud, coffee, automation]
     author: Tom Bailey
     # author: ["Me", "You"] # multiple authors
     images: [""]
