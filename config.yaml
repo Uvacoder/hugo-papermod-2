@@ -30,7 +30,7 @@ params:
     keywords: [Blog, Portfolio, drtbz, cloud, coffee, automation]
     author: Tom Bailey
     # author: ["Me", "You"] # multiple authors
-    images: ["images/tb-logo-white.png"]
+    images: [""]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
@@ -67,7 +67,7 @@ params:
         enabled: true # needs to be explicitly set
         title: drtbz | Tom Bailey
         subtitle: "Mucking around with Hugo, Github and Actions"
-        imageUrl: "images/tb-logo-white.png"
+        imageUrl: "images/berk.jpg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
