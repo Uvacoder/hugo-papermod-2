@@ -8,16 +8,6 @@
       <url>https://drtbz.com/</url>
       <link>https://drtbz.com/</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Jun 2021 16:32:07 +0100</lastBuildDate><atom:link href="https://drtbz.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What&#39;s this all about then?</title>
-      <link>https://drtbz.com/en/posts/my-first-post/</link>
-      <pubDate>Mon, 28 Jun 2021 16:32:07 +0100</pubDate>
-      
-      <guid>https://drtbz.com/en/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://drtbz.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
