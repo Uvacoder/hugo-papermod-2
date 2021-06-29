@@ -19,14 +19,5 @@
       <description>Setting up a simple site with Hugo, Github Pages, and Cloudflare</description>
     </item>
     
-    <item>
-      <title>What&#39;s this all about then3?</title>
-      <link>https://drtbz.com/posts/my-third-post/</link>
-      <pubDate>Tue, 29 Jun 2021 11:00:07 +0100</pubDate>
-      
-      <guid>https://drtbz.com/posts/my-third-post/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
