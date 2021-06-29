@@ -1,5 +1,5 @@
 baseURL: "https://drtbz.com/"
-title: Cloud, Coffee and Automation
+title: Cloud, Coffee and Automation1
 paginate: 5
 theme: [github.com/adityatelange/hugo-PaperMod]
 
@@ -16,7 +16,7 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Cloud, Coffee and Automation
+    title: Cloud, Coffee and Automation2
     description: "Mucking around with Hugo, Github and Actions"
     keywords: [Blog, Portfolio, PaperMod]
     author: Tom Bailey
@@ -70,16 +70,16 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
+        Title: "This is fine \U0001F525"
         Content: Welcome to my blog
 
     socialIcons:
         - name: twitter
-          url: "https://twitter.com/"
+          url: "https://twitter.com/drtbz"
         - name: stackoverflow
           url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/drtbz"
 
     analytics:
         google:
@@ -95,7 +95,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/<path_to_repo>/content"
+        URL: "https://github.com/drtbz/drtbz.github.io/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -111,18 +111,22 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: posts
+          name: posts
+          url: /posts/
+          weight: 10
         - identifier: categories
           name: categories
           url: /categories/
-          weight: 10
+          weight: 20
         - identifier: tags
           name: tags
           url: /tags/
-          weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
           weight: 30
+        - identifier: drtbz
+          name: drtbz.com
+          url: https://drtbz.com/
+          weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
