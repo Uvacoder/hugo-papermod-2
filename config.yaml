@@ -59,7 +59,7 @@ params:
 
     label:
         text: "Home"
-        icon: /images/tb-logo-white.png #this is the logo in the top left corner
+        icon: /images/tb-logo-bulb-trns.png #this is the logo in the top left corner
         iconHeight: 35
 
     # profile-mode
