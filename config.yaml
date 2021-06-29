@@ -7,7 +7,7 @@ theme: ["github.com/theNewDynamic/gohugo-theme-ananke"]
 themesDir: "../.."
 resourceDir: "../resources"
 
-DefaultContentLanguage: "en"
+defaultContentLanguage: "en"
 SectionPagesMenu: "main"
 Paginate: 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics: ""
