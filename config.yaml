@@ -14,6 +14,11 @@ minify:
     disableXML: true
     minifyOutput: true
 
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 0.5
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     csp:
@@ -27,7 +32,7 @@ params:
         scriptsrc: [self]
     title:  drtbz | Tom Bailey # This is some kind of metadata field
     description: "Mucking around with Hugo, Github and Actions"
-    keywords: [Blog, Portfolio, drtbz, cloud, coffee, automation]
+    keywords: [Blog, Portfolio, Tom Bailey, drtbz, cloud, coffee, automation]
     author: Tom Bailey
     # author: ["Me", "You"] # multiple authors
     images: [""]
