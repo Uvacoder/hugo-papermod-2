@@ -20,13 +20,14 @@ So I thought it was about time I started one of these things, collected some tho
 First things first - lets get started with how I setup this page!
 
 ## GitHub Pages
-Basically we need to create a repo called: `drtbz\drtbz.github.io`
+Docs are [here](https://pages.github.com/)
+Basically we need to create a repo called: `drtbz\drtbz.github.io` (or you know.. your username..)
 In there, we need a CNAME file with the sole line: `drtbz.com`
 And chuck in a `README.md` with some text to check your site works.
 That's it, for now!
 
 ## Cloudflare
-I'm using cloudflare as both registrar and CDN/WAF for this project. You don't have to, but they have some cool stuff, and it's free.
+I'm using cloudflare as both registrar and CDN/WAF for this project. You don't have to, but they have some cool stuff, and it's free apart from the registrar bit.
 
 As we're using an apex domain with Github Pages, we've gotta do the following:
  - 4 x A records to drtbz.com with IP's [185.199.108.153,185.199.109.153,185.199.110.153,185.199.111.153]
@@ -46,7 +47,7 @@ That's pretty much it from the cloudflare perspective. Very much set and forget,
 Next up - we're going to setup HUGO, and then do some stuff with Github Actions to tie it all together.
 
 ## Hugo
-Hugo is super easy to setup. It can be found [here](https://gohugo.io/getting-started/installing/) and the best part is that is written in go - we don't need to install any thing extra to make it run. I used the [windows](https://gohugo.io/getting-started/installing/#windows) installer steps.
+Hugo is super easy to setup. It can be found [here](https://gohugo.io/getting-started/installing/) and the best part is that is written in go - we don't need to install any thing extra to make it run. Installing [go](https://golang.org/doc/install) could be handy if you want to extend in the future though. I used the [windows](https://gohugo.io/getting-started/installing/#windows) hugo installer steps.
 
 Once it's all extracted to a place of your choosing - I recommend you get it into your $ENV:Path, makes life loads easier!
 
