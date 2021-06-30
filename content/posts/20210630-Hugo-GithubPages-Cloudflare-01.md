@@ -4,7 +4,7 @@ draft: false
 title: Github pages, Hugo and Cloudflare
 description: Setting up a simple site with Hugo, Github Pages, and Cloudflare
 
-date: 2021-06-29T21:00:00+01:00
+date: 2021-06-30T20:45:00+01:00
 tags: 
     - hugo
     - cloudflare
