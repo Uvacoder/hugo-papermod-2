@@ -71,7 +71,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: drtbz | Tom Bailey
-        subtitle: "Cloud engineering, automating and coffee. \n Mucking around with Hugo, Github and Actions \n This is fine \U0001F525 "
+        subtitle: "Cloud engineering, automating and coffee. <br> Mucking around with Hugo, Github and Actions. <br> This is fine \U0001F525 "
         imageUrl: "images/berk.jpg"
         imageWidth: 120
         imageHeight: 120
