@@ -1,5 +1,5 @@
 baseURL: "https://drtbz.com/"
-title: Tom Bailey | drtbz #This is the tab title for the page and also goes in the footer "This is fine \U0001F525" 
+title: drtbz | Tom Bailey #This is the tab title for the page and also goes in the footer "This is fine \U0001F525" 
 paginate: 5
 theme: [github.com/adityatelange/hugo-PaperMod]
 
@@ -93,6 +93,9 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/drtbz"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/thomas-bailey-96256a91/"
+        
 
     analytics:
         google:
@@ -108,9 +111,9 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/drtbz/drtbz.github.io/content"
+        URL: "https://github.com/drtbz/drtbz.github.io/issues"
         Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+        appendFilePath: false # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -141,11 +144,11 @@ menu:
           url: https://drtbz.com/
           weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+pygmentsUseClasses: true
+markup:
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        style: monokai
