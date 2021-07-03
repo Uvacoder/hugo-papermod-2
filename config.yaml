@@ -1,5 +1,5 @@
 baseURL: "https://drtbz.com/"
-title: "This is fine \U0001F525" #This is the tab title for the page and also goes in the footer
+title: Tom Bailey | drtbz #This is the tab title for the page and also goes in the footer "This is fine \U0001F525" 
 paginate: 5
 theme: [github.com/adityatelange/hugo-PaperMod]
 
@@ -15,13 +15,13 @@ minify:
     minifyOutput: true
 
 sitemap:
-  changefreq: daily
+  changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    csp:
+    csp: #Need to get this working
         childsrc: [self]
         fontsrc: [self]
         formaction: [self]
@@ -36,7 +36,7 @@ params:
     author: Tom Bailey
     # author: ["Me", "You"] # multiple authors
     images: [""]
-    DateFormat: "January 2, 2006"
+    DateFormat: "2 January, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
@@ -71,7 +71,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: drtbz | Tom Bailey
-        subtitle: "Mucking around with Hugo, Github and Actions"
+        subtitle: "Cloud engineering, automating and coffee. \n Mucking around with Hugo, Github and Actions \n This is fine \U0001F525 "
         imageUrl: "images/berk.jpg"
         imageWidth: 120
         imageHeight: 120
