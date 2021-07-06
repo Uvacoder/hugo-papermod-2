@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>drtbz | Tom Bailey</title>
-    <link>https://drtbz.com/</link>
-    <description>Recent content on drtbz | Tom Bailey</description>
+    <title>Powershell on drtbz | Tom Bailey</title>
+    <link>https://drtbz.com/tags/powershell/</link>
+    <description>Recent content in Powershell on drtbz | Tom Bailey</description>
     <image>
       <url>https://drtbz.com/</url>
       <link>https://drtbz.com/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Jul 2021 19:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 19:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell Environment Variables Configuration</title>
       <link>https://drtbz.com/posts/20210705-powershellenvvars/</link>
@@ -17,15 +17,6 @@
       
       <guid>https://drtbz.com/posts/20210705-powershellenvvars/</guid>
       <description>Configuring Environment Variables with Powershell</description>
-    </item>
-    
-    <item>
-      <title>Github pages, Hugo and Cloudflare</title>
-      <link>https://drtbz.com/posts/20210630-hugo-githubpages-cloudflare-01/</link>
-      <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
-      
-      <guid>https://drtbz.com/posts/20210630-hugo-githubpages-cloudflare-01/</guid>
-      <description>Setting up a simple site with Hugo, Github Pages, and Cloudflare</description>
     </item>
     
   </channel>
