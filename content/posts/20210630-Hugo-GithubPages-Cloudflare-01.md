@@ -13,7 +13,6 @@ categories:
     - development
     - github pages
     - hugo
-slug: 20210630-Hugo-GithubPages-Cloudflare-01
 ---
 So I thought it was about time I started one of these things, collected some thoughts and put some ramblings out into the ether.
 
