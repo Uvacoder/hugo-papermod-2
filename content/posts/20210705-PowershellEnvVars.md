@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Powershell Environment Variables Configuration
+title: Powershell & Environment Variables
 description: Configuring Environment Variables with Powershell
 
 date: 2021-07-06T19:00:00+01:00
