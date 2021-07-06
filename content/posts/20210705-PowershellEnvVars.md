@@ -11,7 +11,9 @@ categories:
     - Powershell
     - Windows
 ---
-Really quick, but handy and cool script to sort your environment variable - `$env:path` - using .NET Methods and powershell (Tested on Powershell  5.1 and 7.1.3)
+I was looking for a way to handle updating/changing enviroment vars using powershell, with persistence, as it's way more fun than clicking around.
+
+I stumbled across this handy and cool snippet to sort your environment variable - `$env:path` - using .NET Methods and powershell (Tested on Powershell  5.1 and 7.1.3)
 
 **The usual disclaimer** - don't cock around here if you don't know what your doing, you can make things go all kinds of weird and it's a PITA to fix. Take a copy before making any changes. Don't be stupid.
 
@@ -31,3 +33,6 @@ $folderToAdd = "C:\someFolder\"
 #Set it at a user level (HKEY_CURRENT_USER\Environment)
 [System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::User ) + ";" + "$folderToAdd", [System.EnvironmentVariableTarget]::User)
 ```
+
+## References
+[.Net Environment Class](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-5.0)
