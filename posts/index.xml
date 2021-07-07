@@ -20,15 +20,6 @@
     </item>
     
     <item>
-      <title>Powershell Screen KeepAwake</title>
-      <link>https://drtbz.com/posts/20210707-powershell-keepawake/</link>
-      <pubDate>Tue, 06 Jul 2021 19:00:00 +0100</pubDate>
-      
-      <guid>https://drtbz.com/posts/20210707-powershell-keepawake/</guid>
-      <description>Keeping your screen awake, with powershell!</description>
-    </item>
-    
-    <item>
       <title>Github pages, Hugo and Cloudflare</title>
       <link>https://drtbz.com/posts/20210630-hugo-githubpages-cloudflare-01/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
