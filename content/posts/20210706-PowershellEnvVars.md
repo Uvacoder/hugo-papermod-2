@@ -23,7 +23,7 @@ This will set the system environment var and needs admin powers.
 ```
 $folderToAdd = "C:\someFolder\"
 #Set it at a system level (HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment)
-[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine ) + ";" + "$folderToAdd", [System.EnvironmentVariableTarget]::Machine)
+[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine ) + "$folderToAdd" + ";", [System.EnvironmentVariableTarget]::Machine)
 ```
 
 ## User Space Environment Variable
@@ -31,8 +31,10 @@ Since at least win10, We can also set it at a user level - this can be dead usef
 ```
 $folderToAdd = "C:\someFolder\"
 #Set it at a user level (HKEY_CURRENT_USER\Environment)
-[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::User ) + ";" + "$folderToAdd", [System.EnvironmentVariableTarget]::User)
+[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::User ) + "$folderToAdd" + ";", [System.EnvironmentVariableTarget]::User)
 ```
+
+No matter which method you choose, you'll need to reopen your application, powershell or windows terminal window for it to see the changes!
 
 ## References
 [.Net Environment Class](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-5.0)
