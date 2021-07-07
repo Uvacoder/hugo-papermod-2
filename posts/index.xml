@@ -12,11 +12,20 @@
     <lastBuildDate>Tue, 06 Jul 2021 19:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell &amp; Environment Variables</title>
-      <link>https://drtbz.com/posts/20210705-powershellenvvars/</link>
+      <link>https://drtbz.com/posts/20210706-powershellenvvars/</link>
       <pubDate>Tue, 06 Jul 2021 19:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/posts/20210705-powershellenvvars/</guid>
+      <guid>https://drtbz.com/posts/20210706-powershellenvvars/</guid>
       <description>Configuring Environment Variables with Powershell</description>
+    </item>
+    
+    <item>
+      <title>Powershell Screen KeepAwake</title>
+      <link>https://drtbz.com/posts/20210707-powershell-keepawake/</link>
+      <pubDate>Tue, 06 Jul 2021 19:00:00 +0100</pubDate>
+      
+      <guid>https://drtbz.com/posts/20210707-powershell-keepawake/</guid>
+      <description>Keeping your screen awake, with powershell!</description>
     </item>
     
     <item>
