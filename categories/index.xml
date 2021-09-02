@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on drtbz | Tom Bailey</title>
-    <link>https://drtbz.com/categories/</link>
+    <link>https://hugo-papermod-2.netlify.app/categories/</link>
     <description>Recent content in Categories on drtbz | Tom Bailey</description>
     <image>
-      <url>https://drtbz.com/</url>
-      <link>https://drtbz.com/</link>
+      <url>https://hugo-papermod-2.netlify.app</url>
+      <link>https://hugo-papermod-2.netlify.app</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Jul 2021 11:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 11:00:00 +0100</lastBuildDate><atom:link href="https://hugo-papermod-2.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell</title>
-      <link>https://drtbz.com/categories/powershell/</link>
+      <link>https://hugo-papermod-2.netlify.app/categories/powershell/</link>
       <pubDate>Wed, 07 Jul 2021 11:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/categories/powershell/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/categories/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://drtbz.com/categories/windows/</link>
+      <link>https://hugo-papermod-2.netlify.app/categories/windows/</link>
       <pubDate>Wed, 07 Jul 2021 11:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/categories/windows/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/categories/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://drtbz.com/categories/development/</link>
+      <link>https://hugo-papermod-2.netlify.app/categories/development/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/categories/development/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github pages</title>
-      <link>https://drtbz.com/categories/github-pages/</link>
+      <link>https://hugo-papermod-2.netlify.app/categories/github-pages/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/categories/github-pages/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/categories/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://drtbz.com/categories/hugo/</link>
+      <link>https://hugo-papermod-2.netlify.app/categories/hugo/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/categories/hugo/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/categories/hugo/</guid>
       <description></description>
     </item>
     

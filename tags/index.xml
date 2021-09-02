@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on drtbz | Tom Bailey</title>
-    <link>https://drtbz.com/tags/</link>
+    <link>https://hugo-papermod-2.netlify.app/tags/</link>
     <description>Recent content in Tags on drtbz | Tom Bailey</description>
     <image>
-      <url>https://drtbz.com/</url>
-      <link>https://drtbz.com/</link>
+      <url>https://hugo-papermod-2.netlify.app</url>
+      <link>https://hugo-papermod-2.netlify.app</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Jul 2021 11:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 11:00:00 +0100</lastBuildDate><atom:link href="https://hugo-papermod-2.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell</title>
-      <link>https://drtbz.com/tags/powershell/</link>
+      <link>https://hugo-papermod-2.netlify.app/tags/powershell/</link>
       <pubDate>Wed, 07 Jul 2021 11:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/tags/powershell/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>QuickHacks</title>
-      <link>https://drtbz.com/tags/quickhacks/</link>
+      <link>https://hugo-papermod-2.netlify.app/tags/quickhacks/</link>
       <pubDate>Wed, 07 Jul 2021 11:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/tags/quickhacks/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/tags/quickhacks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloudflare</title>
-      <link>https://drtbz.com/tags/cloudflare/</link>
+      <link>https://hugo-papermod-2.netlify.app/tags/cloudflare/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/tags/cloudflare/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/tags/cloudflare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github pages</title>
-      <link>https://drtbz.com/tags/github-pages/</link>
+      <link>https://hugo-papermod-2.netlify.app/tags/github-pages/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/tags/github-pages/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://drtbz.com/tags/hugo/</link>
+      <link>https://hugo-papermod-2.netlify.app/tags/hugo/</link>
       <pubDate>Wed, 30 Jun 2021 20:45:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/tags/hugo/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/tags/hugo/</guid>
       <description></description>
     </item>
     

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Powershell on drtbz | Tom Bailey</title>
-    <link>https://drtbz.com/tags/powershell/</link>
+    <link>https://hugo-papermod-2.netlify.app/tags/powershell/</link>
     <description>Recent content in Powershell on drtbz | Tom Bailey</description>
     <image>
-      <url>https://drtbz.com/</url>
-      <link>https://drtbz.com/</link>
+      <url>https://hugo-papermod-2.netlify.app</url>
+      <link>https://hugo-papermod-2.netlify.app</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Jul 2021 11:00:00 +0100</lastBuildDate><atom:link href="https://drtbz.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 11:00:00 +0100</lastBuildDate><atom:link href="https://hugo-papermod-2.netlify.app/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powershell Screen KeepAwake</title>
-      <link>https://drtbz.com/posts/20210707-powershell-keepawake/</link>
+      <link>https://hugo-papermod-2.netlify.app/posts/20210707-powershell-keepawake/</link>
       <pubDate>Wed, 07 Jul 2021 11:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/posts/20210707-powershell-keepawake/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/posts/20210707-powershell-keepawake/</guid>
       <description>Keeping your screen awake, with powershell!</description>
     </item>
     
     <item>
       <title>Powershell &amp; Environment Variables</title>
-      <link>https://drtbz.com/posts/20210706-powershellenvvars/</link>
+      <link>https://hugo-papermod-2.netlify.app/posts/20210706-powershellenvvars/</link>
       <pubDate>Tue, 06 Jul 2021 19:00:00 +0100</pubDate>
       
-      <guid>https://drtbz.com/posts/20210706-powershellenvvars/</guid>
+      <guid>https://hugo-papermod-2.netlify.app/posts/20210706-powershellenvvars/</guid>
       <description>Configuring Environment Variables with Powershell</description>
     </item>
     
