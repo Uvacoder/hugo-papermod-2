@@ -1,4 +1,4 @@
-baseURL: "https://drtbz.com/"
+baseURL: "https://hugo-papermod-2.netlify.app"
 title: drtbz | Tom Bailey #This is the tab title for the page and also goes in the footer "This is fine \U0001F525" 
 paginate: 5
 theme: [github.com/adityatelange/hugo-PaperMod]
